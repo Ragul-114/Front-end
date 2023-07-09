@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+buttn{
+  background-color: aqua;
+  size: 10px;
+  border-radius: 15px;
+  border-width: 15px;
+}
+
+
+/* CHECKED */
+
+.img{
+  object-position: center;
+}
+.imgh{
+  object-position: center;
+}
+.imghh{
+  position: relative;
+  animation: mymove 39s infinite;
+
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1900px;}
+}
+.imgh2{
+  object-position: center;
+  background-repeat:no-repeat;
+}
+.imgintro{
+  object-position: center;
+  background-repeat:no-repeat;
+}
+.imghintro1{
+  object-position: center;
+  background-repeat:no-repeat;
+}
+
+.back1{
+ background-image: url("E:\ramalingam\Ragul\CODING\FRONT END\RAGUL\rlearn\src\images\clg.jpg");
+ position:relative;
+ background-size: cover;
+ height: 85vh;
+   width: 99vw;
+   background-repeat: no-repeat;
+}
+
+/* home */
+/* CSS */
+
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.listu {
+width: 40vw;
+height:107vh;
+  background-image: url("E:\ramalingam\Ragul\CODING\FRONT END\RAGUL\rlearn\src\images\download.gif");
+  background-size: 65% 50%;
+  background-position:225px 260px;
+  opacity: 0.99;
+background-repeat: no-repeat;
+}
+.texth{
+ font-feature-settings: "smcp"on;
+}
+/* finish home */
+
+/* loginpage */
+
+
+.bk{
+  background-image:url("E:\ramalingam\Ragul\CODING\FRONT END\RAGUL\rlearn\src\images\si5.gif");
+  
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+background-size: 50% 80%;
+background-position:380px 60px;
+}
+.bk1{
+  background-image:url("E:\ramalingam\Ragul\CODING\FRONT END\RAGUL\rlearn\src\images\si5.gif");
+  background-repeat: no-repeat;
+}
+.li {
+  float: left;
+  border-right:1px solid #bbb;
+  background-color:white;
+}
+.li a:hover{
+  background-color:#272e33;
+  color: white;
+}
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-bottom: 25px;
+  left:140px;
+  position:relative;
+}
+
+.polaroid1{
+  width:28%;
+  left:20px;
+  background-color:white;
+  border-radius: 12px;
+  /* background-image: url("E:\ramalingam\Ragul\CODING\react1\rlearn\src\images\si5.gif"); */
+}
+.polo {
+  opacity: 0.99;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  background-color:#5c300f;
+}
+.polo:hover{
+  opacity: 0.5;
+  display: block;
+  color:black;
+}
+/*finish loginpage */
+
+/* home2 */
+.lih2 {
+  float: left;
+  border-right:1px solid #bbb;
+  background-color:white;
+}
+.lih2 a:hover{
+  background-color:#272e33;
+  color: white;
+}
+
+.nav{
+  display: inline-block;
+  background-color:#010229;
+  font-size: 17px;
+  color: black;
+  padding: 24px;
+  width:3000px;
+  border-style: inherit;
+}
+.polaroidh2 {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  left:140px;
+  
+}
+.poloh2 {
+  opacity: 0.99;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  background-color:#5c300f;
+}
+.poloh2:hover{
+  opacity: 0.5;
+  display: block;
+  color:black;
+}
+
+/* finish home2 */
+
+/* FINISH CHECKED */
+
+
+/* 
+fpage{
+  background-color: #04AA6D;   
+  text-align: center;
+  position:relative;
+  right: 0px;top:2px;
+  width: 200%;
+  height: 400%;
+  position:relative; left:410px; top:0px;bottom: 0px;
+} */
+.animate-charcter
+{
+   text-transform: uppercase;
+   
+  background-image: linear-gradient(
+    -225deg,
+    #272e33 0%,
+    rgb(55, 193, 206) 28%,
+    #ecc824 30%,
+     rgb(20, 209, 93) 35%,
+     rgb(31, 37, 48) 40%
+  );
+  /* background-size: auto auto; */
+  /* background-clip: border-box; */
+  background-size: 200% auto;
+  color: #fff;
+  /* background-clip: text; */
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
